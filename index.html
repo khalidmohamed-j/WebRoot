@@ -1,22 +1,182 @@
 <!DOCTYPE html>
+
+<html lang="en">
+    
     <head>
-        <meta charset="" />
-        <meta name="keywords" content="search terms" />
-        <meta name="description" content="paragraph that is displayed along with the link in the search result" />
-        <meta name="author" content="your name" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      
+    <title>Khalid Mohamed</title>
+        
+    <meta charset="utf-8">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-        <style>
-            div {border:solid}
+    <style>
+        
+        .jumbotron {
+        
+            background-image: url(Images/background.jpg);
+            text-align: center;
+            margin-top: 50px;
+        }
+        #email {
+            width: 300px;
+        }
+        #appSummary{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            
+        }
+        .card-img-top{
+            width: 100%;
+            height: 50%
+        }
+        
+        #appIcon{
+            width: 200px;
+        }
+        #footer{
+            background-color: aqua;
+            padding-top: 150px;
+            margin-top: 50px;
+            text-align: center;
+            padding-bottom: 150px;
+        }
+        body{
+            
+            position: relative;
+            font-family: sans-serif;
+        }
+        
+        .container{
+            text-align: center;
+        }
+        
         </style>
+      
+  </head>
+    
+    data-spy="scroll" data-target=
+    <body data-spy="scroll" data-target="#navbar" data-offset="150px">
+     
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="navbar">
+  <a class="navbar-brand" href="#">MyApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    </Head>
-    <body>
-        <div class="cointainer-fluid" style="background-color: lightgrey;">
-            <h1>Khalid's Web App</h1>
-            <p>Welcome to my new web profile</p>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">Download The App</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="email" placeholder="Email">
+      <input class="form-control mr-sm-2" type="password" placeholder="Password">
+
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
+  </div>
+</nav>
+        
+        <div class="jumbotron" id="jumbotron">
+  <h1 class="display-4">Khalid's Portfolio!</h1>
+  <p class="lead">Software Engineering student. Learning web development and mobile development. Looking forward to using these skills to build meaningful projects.</p>
+  <hr class="my-4">
+  <p>Want to know more? Join my mailing list!</p>
+            
+           <form>
+  <div class="container" class="form-inline">
+
+    <div class="col-auto">
+      <label class="sr-only" for="email">Email Address</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">@</div>
         </div>
+        <input type="email" class="form-control" id="email" placeholder="Your Email">
+      </div>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-2">Sign up</button>
+    </div>
+  </div>
+</form>
+            
+</div>
+        
+        
+        <div class="cointainer" id="appSummary">
+            <div>
+            <h1>Contribute To My Open-Source App</h1>
+                <p class="lead">Let's reinvent the wheel with this app!</p>
+            
+            </div>
+        
+        </div>
+        
+        <div class="container" id="about">
+        
+        <div class="card-deck">
+  <div class="card">
+    <img src="Images/card1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><i class="fas fa-balance-scale"></i> Mobile App</h5>
+      <p class="card-text">This is an app that helps restuarant customers order food on their phones. </p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Images/card2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><i class="fas fa-balance-scale"></i> UX Design Course</h5>
+      <p class="card-text">A course designed to give you the basics of UX design.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Images/profilePic.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><i class="fas fa-balance-scale"></i> Khalid</h5>
+      <p class="card-text">This is my profile photo. </p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+        
+        <div id="footer">
+            
+            
+                
+                <h2>Download the app!</h2>
+                
+                <p class="lead">Check it out and let us know what you think!</p>
+                
+                <p><a href=""><img id="appIcon" src="Images/appIcon.png"></a></p>
+                
+        
+        </div>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+          
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+      
     </body>
+    
 </html>
+
