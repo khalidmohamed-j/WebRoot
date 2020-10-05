@@ -11,56 +11,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-        
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
+    <link rel="stylesheet" href="./CSS/style.css">
 
-    <style>
-        
-        .jumbotron {
-        
-            background-image: url(Images/background.jpg);
-            text-align: center;
-            margin-top: 50px;
-        }
-        #email {
-            width: 300px;
-        }
-        #appSummary{
-            text-align: center;
-            margin-top: 50px;
-            margin-bottom: 50px;
-            
-        }
-        .card-img-top{
-            width: 100%;
-            height: 50%
-        }
-        
-        #appIcon{
-            width: 200px;
-        }
-        #footer{
-            background-color: aqua;
-            padding-top: 150px;
-            margin-top: 50px;
-            text-align: center;
-            padding-bottom: 150px;
-        }
-        body{
-            
-            position: relative;
-            font-family: sans-serif;
-        }
-        
-        .container{
-            text-align: center;
-        }
-        
-        </style>
+    <link rel="stylesheet" href="./CSS/reset.css">
       
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
   </head>
     
     data-spy="scroll" data-target=
@@ -119,62 +82,54 @@
             
 </div>
         
-        
+        <div class="container-fluid" style="background-color: lightcyan; font: 25px Arial, sans-serif;">
+
+            <div class="row">
+              <div class="col-auto" style="width: 33.33%;">
+                
+                <img src="Images/profilePic.jpg" style="width: 50px; height: 50px">
+                <h3>Khalid Mohamed</h3>
+                <h3>Software Engineer</h3>
+              </div>
+              <div class="col-auto" style="width: 66.67%">
+                <h3>About me</h3>
+                <p>I am currently a full time student studying in Bellevue College. 
+                  I am doing my 4-year degree in Application development and I am in year 3.
+                  I previously worked as an IT administrator, and I quit my employment after my school and work schedules conflicted and 
+                  weren't reconcilable. I enjoy outdoor activities especially travalling to new places and playing soccer. 
+
+                </p>
+              </div>
+            </div>
+          
+
+
+
+        </div>
+
+
         <div class="cointainer" id="appSummary">
             <div>
             <h1>Contribute To My Open-Source App</h1>
-                <p class="lead">Let's reinvent the wheel with this app!</p>
+                <p class="lead">You can brush up on your skills using the resources below.</p>
+                <p><a href="html/webResources.html">Web Resources</a></p>
             
             </div>
         
         </div>
-        
-        <div class="container" id="about">
-        
-        <div class="card-deck">
-  <div class="card">
-    <img src="Images/card1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fas fa-balance-scale"></i> Mobile App</h5>
-      <p class="card-text">This is an app that helps restuarant customers order food on their phones. </p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="Images/card2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fas fa-balance-scale"></i> UX Design Course</h5>
-      <p class="card-text">A course designed to give you the basics of UX design.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="Images/profilePic.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fas fa-balance-scale"></i> Khalid</h5>
-      <p class="card-text">This is my profile photo. </p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-    </div>
-        
+    
         <div id="footer">
             
             
                 
-                <h2>Download the app!</h2>
+          <h2>Download the app!</h2>
                 
-                <p class="lead">Check it out and let us know what you think!</p>
+          <p class="lead">Check it out and let us know what you think!</p>
                 
-                <p><a href=""><img id="appIcon" src="Images/appIcon.png"></a></p>
+          <p><a href=""><img id="appIcon" src="Images/appIcon.png"></a></p>
                 
         
-        </div>
-        
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-          
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    </div>
       
     </body>
     
